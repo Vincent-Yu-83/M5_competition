@@ -36,6 +36,8 @@ M5 competition项目是根据沃尔玛美国各个门店的销售数据（开放
 #### 7. [LightGBM2.ipynb](LightGBM2.ipynb) 
 * LGBM分析商品类别分布和预测
 
+#### 8. [XGBoost.py](XGBoost.py) 
+* XGBoost基础实现数据分析并输出结果
 <br/>
 
 ## Getting Started
