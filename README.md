@@ -1,29 +1,22 @@
-# <p align="center">Neural Network</p>
+# <p align="center">M5 competition</p>
 
 
-Neural Network项目是以学习、交流神经网络基础知识为目的的开源项目。该项目结合了《Neural Network and Deep Learning》《动手学深度学习》《Deedp Learning》等书籍或教程所讲的知识和源代码，加上作者在此基础上根据理解和经验做出的一点丰富和注释，将神经网络的基础知识做了一个直观展示和讨论。<br/>
-本项目内容涵盖MLP、CNN、RNN、计算机视觉、transformer、bert等神经网络的演进框架，包括各个框架的基础实现和应用示例。
+M5 competition项目是根据沃尔玛美国各个门店的销售数据（开放数据集），来对两个28天的时间段内的门店&商品的销售额进行预测
 
 
 <br/>
 
 ## Table of Contents
 
-#### 1. MLP
+#### 1. 数据集介绍
 * [dropout_pytorch.ipynb](MLP/dropout_pytorch.ipynb) 
-* [fashion_mnist_pytorch.ipynb](MLP/fashion_mnist_pytorch.ipynb) 
-* [fitting_pytorch.ipynb](MLP/fitting_pytorch.ipynb) 
-* [gpu_pytorch.ipynb](MLP/gpu_pytorch.ipynb) 
-* [initnet_pytorch.ipynb](MLP/initnet_pytorch.ipynb) 
-* [mnist_cross-entropy.ipynb](MLP/mnist_cross-entropy.ipynb) 
-* [mnist_pytorch.ipynb](MLP/mnist_pytorch.ipynb) 
-* [mnist_sigmoid.ipynb](MLP/mnist_sigmoid.ipynb) 
-* [mnist_tensorflow.ipynb](MLP/mnist_tensorflow.ipynb) 
-* [parameter_pytorch.ipynb](MLP/parameter_pytorch.ipynb) 
-* [weight_decay_pytorch.ipynb](MLP/weight_decay_pytorch.ipynb)
+* calendar.csv - Contains information about the dates on which the products are sold.(提供商品销售的日期信息)
+* sales_train_validation.csv - Contains the historical daily unit sales data per product and store [d_1 - d_1913](验证数据集，包含商品信息、门店信息、对应每天的销售额)
+* sample_submission.csv - The correct format for submissions. Reference the Evaluation tab for more info.(提交文件样本文件)
+* sell_prices.csv - Contains information about the price of the products sold per store and date.(门店的商品在某一天的价格信息)
+* sales_train_evaluation.csv - Available once month before competition deadline. Will include sales [d_1 - d_1941](评价数据集，在竞赛结束前一个月提供，格式与验证数据集一致)
 
-#### 2. CNN
-* [AlexNet.ipynb](CNN/AlexNet.ipynb) 
+#### 2. [analysis.py](analysis.py) 
 * [BN.ipynb](CNN/BN.ipynb) 
 * [CNN-Explainer.html](CNN/CNN-Explainer.html) 
 * [cnn.ipynb](CNN/cnn.ipynb) 
