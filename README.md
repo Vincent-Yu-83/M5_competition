@@ -14,7 +14,7 @@ M5 competition项目是根据沃尔玛美国各个门店的销售数据（开放
 * sample_submission.csv - The correct format for submissions. Reference the Evaluation tab for more info.(提交文件样本文件)
 * sell_prices.csv - Contains information about the price of the products sold per store and date.(门店的商品在某一天的价格信息)
 * sales_train_evaluation.csv - Available once month before competition deadline. Will include sales [d_1 - d_1941](评价数据集，在竞赛结束前一个月提供，格式与验证数据集一致)
-<br/>
+
 * 数据集下载地址：[https://www.wen1tech.com/datasets/M5_datasets.zip](https://www.wen1tech.com/datasets/M5_datasets.zip)
 
 
