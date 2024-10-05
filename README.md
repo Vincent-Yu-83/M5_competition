@@ -39,9 +39,14 @@ M5 competition项目是根据沃尔玛美国各个门店的销售数据（开放
 #### 8. [XGBoost.py](XGBoost.py) 
 * XGBoost基础实现数据分析并输出结果
 
-#### 8. [LSTMNN_vs_XGBoost.ipynb](LSTMNN_vs_XGBoost.ipynb) 
-* 对比LSTM Neural Network 和 XGBoost的实现区别以及预测效果
+#### 9. [CatBoost.py](CatBoost.py) 
+* CatBoost基础实现数据分析并输出结果
 
+#### 10. [LGBoost.py](LGBoost.py) 
+* LGBoost基础实现数据分析并输出结果
+
+#### 11. [tabtransformer.py](tabtransformer.py) 
+* tabtransformer基础实现数据分析并输出结果
 <br/>
 
 ## Getting Started
